@@ -19,4 +19,7 @@ def frutas(lista,elemento):
 
 if __name__ == "__main__":
   nueva=eliminar_un_caracter(lista_frutas,"\n")
-  print(frutas(nueva,"Mora"))
+print("Ingrese la nueva fruta: ")
+elemento=input()
+nueva_fruta = frutas(nueva, elemento)
+print(nueva_fruta)

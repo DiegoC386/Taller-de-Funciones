@@ -22,7 +22,7 @@ def repetir(lista , elemento):
 
 if __name__ == "__main__":
   nueva=eliminar_un_caracter(lista_numeros,"\n")
-  print("Ingresa un elemento que quieras cuantas veces se repite en la lista de numeros:")
+  print("Ingresa el numero que se repite en la lista de numeros: ")
   elemento = input()
   repeticiones = repetir(nueva, elemento)
   print(repeticiones)
