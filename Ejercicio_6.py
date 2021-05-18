@@ -26,11 +26,11 @@ def letra(lista,elemento):
     if(x[0]=="M"):
       print(x)
       auxiliar.append(x)
-    return auxiliar
+  return auxiliar
 
 if __name__ == "__main__":
   nueva=eliminar_un_caracter(lista_frutas,"\n")
-  nueva_dos=letra(nueva,"M")
+  nueva_dos=letra(nueva,"")
   print(nueva_dos)
  
  

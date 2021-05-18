@@ -7,5 +7,16 @@ for i in frutas:
 for i in numeros:
   lista_numeros.append(i)
 #realizar una funcion que agregue al final de archivo frutas una fruta
-def frutas(elemento):
-  pass
+def eliminar_un_caracter(lista,elemento):
+  auxilar=[]
+  for i in lista:
+    a=i.replace(elemento,"")
+    auxilar.append(a)
+  return auxilar
+def frutas(lista,elemento):
+  lista.append(elemento)
+  return lista
+
+if __name__ == "__main__":
+  nueva=eliminar_un_caracter(lista_frutas,"\n")
+  print(frutas(nueva,"Mora"))
