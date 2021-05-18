@@ -6,6 +6,12 @@ for i in frutas:
   lista_frutas.append(i)
 for i in numeros:
   lista_numeros.append(i)
+""" 
+Entradas:
+lista-list-->lista
+Salidas
+lista-list-->lista
+"""
 #Realizar una funcion que cuente el numero de veces que se repite un elemento  
 def eliminar_un_caracter(lista,elemento):
   auxilar=[]

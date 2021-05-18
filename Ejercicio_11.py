@@ -6,6 +6,13 @@ for i in frutas:
   lista_frutas.append(i)
 for i in numeros:
   lista_numeros.append(i)
+"""
+Entradas:
+lista-list-->lista
+lista-str-->elemento
+Salidas
+lista-list-->lista
+"""
 #realizar una funcion que agregue al final de archivo frutas una fruta
 def eliminar_un_caracter(lista,elemento):
   auxilar=[]

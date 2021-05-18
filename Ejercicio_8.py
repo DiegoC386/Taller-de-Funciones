@@ -9,7 +9,10 @@ for i in numeros:
 #Retorna el tamaño de la lista y que tipo de datos estan dentro de la lista
 """
 Entradas:
+lista->list->lista
 Salidas
+tamaño-->int->tamano
+tipo-->type-->type
 """
 def eliminar_un_caracter(lista,elemento):
   auxilar=[]
