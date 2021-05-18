@@ -22,7 +22,7 @@ def posicion_elemento(lista , elemento):
 
 if __name__ == "__main__":
   nueva=eliminar_un_caracter(lista_frutas,"\n")
-print("Ingresa un elemento que quieras revisar en la lista de frutas:")
+print("Ingresa una fruta que se encuentre en la lista de frutas:")
 elemento = input() 
 posicion = posicion_elemento(nueva, elemento)
 print(posicion)

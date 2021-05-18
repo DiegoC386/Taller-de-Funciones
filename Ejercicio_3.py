@@ -13,12 +13,19 @@ lista-list-->lista
 Salidas
 lista-list-->lista
 """
+def eliminar_un_caracter(lista,elemento):
+  auxilar=[]
+  for i in lista:
+    a=i.replace(elemento,"")
+    auxilar.append(a)
+  return auxilar
 def copia_lista(lista):
   aux=[]
   for i in lista:
     aux.append(i)
   return aux
-
 if __name__ == "__main__":
-  print(copia_lista(lista_frutas))
-  print(copia_lista(lista_numeros))
+  nueva=eliminar_un_caracter(lista_frutas,"\n")
+nueva_dos=eliminar_un_caracter(lista_numeros,"\n")
+print(copia_lista(nueva))
+print(copia_lista(nueva_dos))
